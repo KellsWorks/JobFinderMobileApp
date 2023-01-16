@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="@string/support"
+    android:id="@+id/support"
+    android:icon="@drawable/help_buoy"
+    app:showAsAction="always"
+    />
+    <item
+        android:title="@string/notifications"
+        android:id="@+id/notifications"
+        android:icon="@drawable/notifications"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="@string/user"
+        android:id="@+id/user"
+        android:icon="@drawable/person"
+        app:showAsAction="ifRoom"
+        />
+</menu>

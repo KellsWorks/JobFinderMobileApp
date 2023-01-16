@@ -1,13 +1,16 @@
 package app.jobfindermw
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuInflater
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import app.jobfindermw.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,5 +38,21 @@ class MainActivity : AppCompatActivity() {
 
         navigationView.setupWithNavController(navigationController)
         setupActionBarWithNavController(navigationController, appBarConfiguration)
+
+        binding.bottomNavigation.getOrCreateBadge(R.id.bookmarksFragment).apply {
+            isVisible = true
+            number = 12
+            backgroundColor = resources.getColor(R.color.red)
+        }
+
     }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+
+        val inflater: MenuInflater = menuInflater
+        inflater.inflate(R.menu.appbar, menu)
+
+        return true
+    }
+
 }
