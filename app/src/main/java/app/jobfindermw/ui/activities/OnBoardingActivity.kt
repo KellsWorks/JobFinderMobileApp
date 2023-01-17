@@ -1,10 +1,9 @@
 package app.jobfindermw.ui.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import app.jobfindermw.R
 import app.jobfindermw.databinding.ActivityOnBoardingBinding
@@ -23,7 +22,11 @@ class OnBoardingActivity : AppCompatActivity() {
     }
 
     fun getStarted(view: View){
-        Toast.makeText(this, "Get started", Toast.LENGTH_LONG)
-            .show()
+        startActivity(
+            Intent(
+                this@OnBoardingActivity,
+                AuthActivity::class.java
+            )
+        )
     }
 }
