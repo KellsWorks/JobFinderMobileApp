@@ -1,5 +1,6 @@
 package app.jobfindermw
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
@@ -10,6 +11,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import app.jobfindermw.databinding.ActivityMainBinding
+import app.jobfindermw.ui.activities.OnBoardingActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +23,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         installSplashScreen()
+
+        startActivity(
+            Intent(
+                this@MainActivity,
+                OnBoardingActivity::class.java
+            )
+        )
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

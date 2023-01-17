@@ -8,4 +8,13 @@
     <string name="support">Support</string>
     <string name="notifications">Notifications</string>
     <string name="user">User</string>
+    <string name="search_for_a_job_position">Search for a job position...</string>
+    <string name="search">Search</string>
+    <string name="enter_search_term">Enter search term</string>
+    <string name="software_developer">Software Developer</string>
+    <string name="airtel_malawi_plc">Airtel Malawi PLC</string>
+    <string name="welcome_job_seeker">Welcome Job Seeker</string>
+    <string name="start">We are happy to see you here, let’s explore new dream jobs for your career</string>
+    <string name="start_exploring_jobs">Start Exploring Jobs</string>
+    <string name="illustration">illustration</string>
 </resources>
