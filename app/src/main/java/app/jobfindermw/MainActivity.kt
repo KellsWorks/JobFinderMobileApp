@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setSupportActionBar(binding.toolbar)
+//        setSupportActionBar(binding.toolbar)
 
         setupNavigation()
     }
@@ -44,25 +44,25 @@ class MainActivity : AppCompatActivity() {
         val navigationView = binding.bottomNavigation
         val navigationController = findNavController(R.id.nav_host_fragment_content_main)
 
-        appBarConfiguration = AppBarConfiguration(setOf(R.id.homeFragment, R.id.bookmarksFragment, R.id.accountFragment))
+//        appBarConfiguration = AppBarConfiguration(setOf(R.id.homeFragment, R.id.bookmarksFragment, R.id.accountFragment))
 
         navigationView.setupWithNavController(navigationController)
-        setupActionBarWithNavController(navigationController, appBarConfiguration)
-
-        binding.bottomNavigation.getOrCreateBadge(R.id.bookmarksFragment).apply {
-            isVisible = true
-            number = 12
-            backgroundColor = resources.getColor(R.color.red)
-        }
+//        setupActionBarWithNavController(navigationController, appBarConfiguration)
+//
+//        binding.bottomNavigation.getOrCreateBadge(R.id.bookmarksFragment).apply {
+//            isVisible = true
+//            number = 12
+//            backgroundColor = resources.getColor(R.color.red)
+//        }
 
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-
-        val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.appbar, menu)
-
-        return true
-    }
+//    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+//
+//        val inflater: MenuInflater = menuInflater
+//        inflater.inflate(R.menu.appbar, menu)
+//
+//        return true
+//    }
 
 }
