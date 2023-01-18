@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.JobFinderMobileApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/darkGreen</item>
-        <item name="colorPrimaryVariant">@color/darkGreen</item>
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/dodgerBlue</item>
@@ -12,6 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/inter</item>
     </style>
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">

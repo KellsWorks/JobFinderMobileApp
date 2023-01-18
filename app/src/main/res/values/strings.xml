@@ -25,4 +25,10 @@
     <string name="do_not_have_an_account_register">Do not have an account? Register</string>
     <string name="search_by_job_position_or_title">Search by job position or title</string>
     <string name="explore_by_category">Explore By Category</string>
+    <string name="location">Location</string>
+    <string name="blantyre_city">Blantyre City</string>
+    <string name="icon">icon</string>
+    <string name="human_resource_management">Human Resource Management</string>
+    <string name="recently_posted_jobs">Recently posted jobs</string>
+    <string name="see_more">See more</string>
 </resources>
