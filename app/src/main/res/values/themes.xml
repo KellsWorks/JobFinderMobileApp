@@ -19,7 +19,7 @@
 
         <item name="windowSplashScreenBackground">@color/paleGreen</item>
 
-        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
 
         <item name="windowSplashScreenAnimationDuration">200</item>
 

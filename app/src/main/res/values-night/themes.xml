@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.JobFinderMobileApp" parent="Theme.AppCompat.DayNight">
+    <style name="Theme.JobFinderMobileApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/green</item>
-        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorPrimary">@color/darkGreen</item>
+        <item name="colorPrimaryVariant">@color/darkGreen</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/dodgerBlue</item>
