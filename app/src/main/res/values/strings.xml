@@ -31,4 +31,8 @@
     <string name="human_resource_management">Human Resource Management</string>
     <string name="recently_posted_jobs">Recently posted jobs</string>
     <string name="see_more">See more</string>
+    <string name="full_time">Full Time</string>
+    <string name="lilongwe">Lilongwe</string>
+    <string name="unspecified">Unspecified</string>
+    <string name="applications_are_invited_from_highly_qualified_self_motivated_and_experienced_candidates_to_fill_the_following_vacant_position_at_castel_malawi">Applications are invited from highly qualified, self-motivated, and experienced candidates to fill the following vacant position at Castel Malawi</string>
 </resources>

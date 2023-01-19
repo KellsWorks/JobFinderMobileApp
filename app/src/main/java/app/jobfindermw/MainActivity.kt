@@ -46,17 +46,7 @@ class MainActivity : AppCompatActivity() {
         navigationView.setupWithNavController(navigationController)
 //        setupActionBarWithNavController(navigationController, appBarConfiguration)
 //
-        binding.bottomNavigation.getOrCreateBadge(R.id.bookmarksFragment).apply {
-            isVisible = true
-            number = 12
-            backgroundColor = resources.getColor(R.color.red)
-        }
 
-        binding.bottomNavigation.getOrCreateBadge(R.id.notificationsFragment).apply {
-            isVisible = true
-            number = 2
-            backgroundColor = resources.getColor(R.color.red)
-        }
 
     }
 
