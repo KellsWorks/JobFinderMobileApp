@@ -64,7 +64,8 @@
                 android:src="@drawable/bookmark"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:contentDescription="@string/icon" />
+                android:contentDescription="@string/icon"
+                app:tint="@color/grey" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -122,7 +123,7 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/briefcase"
+                    android:src="@drawable/cash"
                     android:contentDescription="@string/icon"
                     app:tint="@color/grey" />
                 <TextView
